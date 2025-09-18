@@ -99,8 +99,12 @@ Safeguarding-Bharat-EV-Charging-OCPP/
 ---
 
 ## 🤝 Contributions
-Contributions, issues, and feature requests are welcome!  
+Contributions, issues, and feature requests are welcome!
 📧 Contact: [architkiran](https://github.com/architkiran)
 
 ---
+##Team Members:
+Archit Kiran Kumar
+Chris Biju
+Het Joshi
 
