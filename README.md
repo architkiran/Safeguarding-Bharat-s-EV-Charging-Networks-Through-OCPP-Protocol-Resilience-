@@ -1,48 +1,106 @@
-# Safeguarding Bharat's EV Charging Networks Through OCPP Protocol Resilience 🏆
+# ⚡ Safeguarding Bharat's EV Charging Networks Through OCPP Protocol Resilience 🏆
 
-![EV Charging](https://img.icons8.com/color/48/000000/electric-car.png)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![OCPP](https://img.shields.io/badge/OCPP-FF6F00?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-black?logo=python) ![Java](https://img.shields.io/badge/Java-black?logo=openjdk) ![GitHub](https://img.shields.io/badge/GitHub-black?logo=github) ![OCPP](https://img.shields.io/badge/OCPP-black?logo=opencollective)
 
 ---
 
-## Overview
-This project focuses on **enhancing the security and resilience of Electric Vehicle (EV) charging networks in India** by analyzing vulnerabilities in the **OCPP (Open Charge Point Protocol)**.  
+## 📖 Overview
+This project focuses on **enhancing the security and resilience of Electric Vehicle (EV) charging networks in India** by identifying vulnerabilities in the **Open Charge Point Protocol (OCPP)**.  
 
-As EV adoption grows rapidly, ensuring safe and reliable charging infrastructure is critical. This project identifies potential threats, explores protocol weaknesses, and proposes strategies to mitigate cyberattacks and ensure uninterrupted network functionality.  
+As EV adoption surges, ensuring **secure and reliable charging infrastructure** is essential to support the nation’s sustainable mobility goals. This work investigates **protocol-level and network-level weaknesses**, simulates real-world cyber threats, and proposes **practical resilience strategies** for safeguarding the charging ecosystem.  
 
-🏆 This project was awarded **Best Project** for its innovation and impact in securing EV infrastructure.  
-
----
-
-## Objectives
-- Analyze the current state of EV charging networks in India.
-- Identify vulnerabilities in OCPP communication and data handling.
-- Propose resilience strategies to secure EV charging stations and central management systems.
-- Demonstrate potential attack scenarios and test countermeasures.
-- Promote safe adoption of EV infrastructure nationwide.
+🏆 **Award:** Recognized as the **Best Project** for innovation and real-world impact in EV infrastructure security.
 
 ---
 
-## Key Features
-- **Vulnerability Analysis:** Assess protocol-level and network-level risks in EV charging systems.
-- **Resilience Strategies:** Recommendations to strengthen OCPP communication, authentication, and data integrity.
-- **Simulation and Testing:** Prototype simulations of attack scenarios to validate proposed solutions.
-- **Data-Driven Insights:** Use of logging, monitoring, and analytics to enhance security measures.
-- **Award-Winning Project:** Recognized for its innovative approach to EV network security.
-- **Impactful Research:** Contributes to safer EV adoption and sustainable transportation in India.
+## 🎯 Objectives
+- 🔍 **Analyze** vulnerabilities in OCPP communication and data handling.  
+- 🛡️ **Propose resilience strategies** to strengthen OCPP authentication, encryption, and data integrity.  
+- ⚡ **Simulate attack scenarios** (e.g., MITM, replay, denial-of-service) to demonstrate risks.  
+- 📊 **Evaluate countermeasures** through simulation and monitoring tools.  
+- 🌍 **Promote safer EV adoption** across India by ensuring robust charging infrastructure.  
 
 ---
 
-## Technologies Used
-- **Programming Languages:** Python, Java
-- **Protocols & Standards:** OCPP 1.6 / 2.0
-- **Tools & Frameworks:** Network simulators, security testing frameworks, IoT communication tools
-- **Data Analysis:** Traffic analysis, anomaly detection, and logging systems
-- **Version Control & Collaboration:** Git, GitHub
+## 🚀 Key Features
+- **🔐 Vulnerability Analysis:** In-depth assessment of protocol-level and infrastructure-level risks.  
+- **🛡️ Resilience Framework:** Security enhancements including mutual authentication, session resilience, and anomaly detection.  
+- **🧪 Simulation & Testing:** Attack modeling (MITM, replay, spoofing) and defense validation.  
+- **📡 Monitoring & Logging:** Data-driven detection of anomalies in real-time communication.  
+- **🏆 Recognition:** Project awarded for its **innovation and societal impact**.  
 
 ---
 
-## Project Structure
+## 🛠️ Technologies Used
+- **Programming Languages:** Python, Java  
+- **Protocols & Standards:** OCPP 1.6 / 2.0, TLS/SSL  
+- **Frameworks & Tools:**  
+  - Network Simulators (e.g., NS-3, Mininet)  
+  - Security Testing Tools (Wireshark, Burp Suite, Kali Linux)  
+  - IoT Communication Libraries  
+- **Data Analysis:** Traffic analysis, anomaly detection, event logging  
+- **Collaboration & Version Control:** Git, GitHub  
+
+---
+
+## 📂 Project Structure
+## 📂 Project Structure  
+
+```text
+Safeguarding-Bharat-EV-Charging-OCPP/
+│
+├── 📘 docs/                        # Documentation, research papers, references
+│   ├── OCPP_Vulnerabilities.pdf
+│   ├── Security_Strategies.md
+│   └── Research_Paper.pdf
+│
+├── 🔬 simulations/                 # Attack simulations and defense validation
+│   ├── MITM_Attack.py
+│   ├── Replay_Attack.py
+│   └── OCPP_Defense_Model.py
+│
+├── 📊 analysis/                    # Data logs, vulnerability reports, traffic analysis
+│   ├── traffic_logs.csv
+│   ├── anomaly_report.json
+│   └── attack_vs_defense_metrics.xlsx
+│
+├── 💻 src/                         # Core source code for protocol simulation
+│   ├── client/                     # Simulated EV charging stations
+│   │   └── ChargePointClient.java
+│   ├── server/                     # Central management system
+│   │   └── CentralSystemServer.java
+│   └── security/                   # Cryptographic modules
+│       └── PQC_Encryption.java
+│
+├── 📦 resources/                   # Diagrams, figures, datasets
+│   ├── architecture_diagram.png
+│   ├── attack_flowchart.png
+│   └── dataset_sample.csv
+│
+└── 📄 README.md                    # Project overview (this file)
+
+```
+---
+
+## 📊 Results & Impact
+- ✅ Identified **critical attack surfaces** in OCPP-based communication.  
+- ✅ Proposed **post-quantum resilient communication model** with enhanced encryption.  
+- ✅ Demonstrated **successful detection & mitigation** of common attack scenarios.  
+- ✅ Provided **scalable guidelines** for securing EV infrastructure in India.  
+
+---
+
+## 📢 Future Work
+- 🔹 Extend simulations for **OCPP 2.0.1 compliance**.  
+- 🔹 Explore **blockchain-based trust models** for EV charging stations.  
+- 🔹 Integrate **post-quantum cryptography (PQC)** in real-world prototypes.  
+- 🔹 Collaborate with **EV manufacturers and charging providers** for pilot testing.  
+
+---
+
+## 🤝 Contributions
+Contributions, issues, and feature requests are welcome!  
+📧 Contact: [architkiran](https://github.com/architkiran)
+
+---
+
